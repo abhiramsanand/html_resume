@@ -165,12 +165,12 @@ body {
   border-radius: 2px;
 }
 
-.pr {
+.pro {
   position: relative;
   display: inline-block;
 }
 
-.pr::after {
+.pro::after {
   content: "";
   position: absolute;
   left: 0;
