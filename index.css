@@ -1,0 +1,270 @@
+body {
+  position: relative;
+  display: inline-block;
+  padding-top: 50px;
+  padding-left: 600px;
+}
+
+.base {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  box-shadow: 20px 20px 20px 20px gray;
+}
+
+.first {
+  background-color: black;
+  color: white;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  width: 200px;
+  display: block;
+}
+
+.imtag {
+  background-color: #ffc905;
+  color: black;
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2px 10px;
+  margin: -10px;
+  margin-left: 1px;
+}
+
+.content1 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.ed {
+  position: relative;
+  display: inline-block;
+}
+
+.ed::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  border-bottom: 3px solid #ffc905;
+  width: 30%;
+}
+
+.fl {
+  display: flex;
+  flex-direction: row;
+}
+
+.loader {
+  position: relative;
+  width: 50%;
+  height: 2px;
+  background-color: black;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 18px;
+}
+
+.loader-fill {
+  height: 100%;
+  background-color: #ffc905;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+  border-radius: 5px 0 0 5px;
+}
+
+.second {
+  padding-left: 20px;
+  background-color: #ebebeb;
+}
+
+.sec {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.i1 {
+  background-color: #ffc905;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+}
+
+.i2 {
+  background-color: #ffc905;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.i3 {
+  background-color: #ffc905;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+.con-pair {
+  margin-bottom: 3px;
+}
+
+.con-text {
+  font-size: 7px;
+  margin: 0;
+  padding: 2px 0;
+}
+
+.con-pair .con-text:last-child {
+  margin-bottom: 0;
+}
+
+.third {
+  background-color: #ebebeb;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+
+.h {
+  margin-bottom: -1px;
+  font-size: 33px;
+}
+
+.tag2 {
+  background-color: #ffc905;
+  color: black;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 2px;
+}
+
+.pr {
+  position: relative;
+  display: inline-block;
+}
+
+.pr::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  border-bottom: 3px solid #ffc905;
+  width: 45%;
+}
+
+.content2 {
+  padding-bottom: 30px;
+}
+
+.fourth {
+  background-color: white;
+  padding-left: 30px;
+  padding-top: 0px;
+  padding-right: 40px;
+}
+
+.wo {
+  position: relative;
+  display: inline-block;
+}
+
+.wo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  border-bottom: 3px solid #ffc905;
+  width: 20%;
+}
+
+.s1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -10px;
+}
+
+.tag3 {
+  background-color: #ffc905;
+  color: black;
+  display: inline;
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+}
+
+.tag4 {
+  background-color: #ffc905;
+  color: black;
+  display: inline;
+  position: absolute;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 2px;
+}
+
+.re {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.re::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  border-bottom: 3px solid #ffc905;
+  width: 33%;
+}
+
+.in {
+  position: relative;
+  display: inline-block;
+}
+
+.in::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  border-bottom: 3px solid #ffc905;
+  width: 39%;
+}
+
+.s2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.in1 {
+  margin-left: 25px;
+}
